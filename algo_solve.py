@@ -5,6 +5,12 @@ Created on Sat Nov 23 13:51:19 2019
 @author: Ouistiti
 """
 
+# =============================================================================
+#
+#   THe actual recursive backtracking algo that solves the sudokus
+#
+# =============================================================================
+
 
 def SudokuSolver(grid, i=0, j=0):
         i,j = findNextCellToFill(grid, i, j)

@@ -6,9 +6,15 @@ Created on Fri Nov  8 13:58:49 2019
 """
 
 # =============================================================================
-# Packages
+#
+#   The main Script (needs a trained model before hand for number recognition)
+#
 # =============================================================================
 
+# =============================================================================
+# Packages
+# =============================================================================
+#%%
 import pandas as pd
 import numpy as np
 import PyPDF2
@@ -23,9 +29,9 @@ import os
 import sys
 
 os.getcwd()
-os.chdir('C:\\Users\\Ouistiti\\Documents\\CHALLENGE DATA\\data_challenge\\Journaux')
+os.chdir('C:\\Users\\Ouistiti\\Documents\\CHALLENGE DATA\\data_challenge')
 #dir_path = os.path.dirname(os.path.realpath(__file__))
-
+#%%
 # =============================================================================
 # Find pages with the sudoku
 # =============================================================================
@@ -46,7 +52,7 @@ for file_name in listdir("journaux"):
         pages[sudoku_page[0]].save('sudoku_page/sudoku_page_'+file_name[:8] +'.png')
 
 
-
+#%%
 # =============================================================================
 # Automaticaly find the sudokus position with OpenCv contours
 # =============================================================================
@@ -76,7 +82,7 @@ for page_name in listdir("sudoku_page"):
     crop_img = im[y:y+h, x:x+w]
     cv2.imwrite("sudoku/sudoku_"+page_name,crop_img)
 
-
+#%%
 # =============================================================================
 # Diviser le sudoku et recuperer info de chaque case
 # =============================================================================
@@ -144,7 +150,7 @@ for sudoku in listdir("sudoku"):
     plt.figure(figsize = (25,14))
     plt.imshow(cropped_img)
     
-    
+   #%% 
     
     # =============================================================================
     # Solving algorithm
@@ -155,7 +161,7 @@ for sudoku in listdir("sudoku"):
     # =============================================================================
     # Display results
     # =============================================================================
-    
+  #%%  
     heigh, width, channels = cropped_img.shape
     # 81 cases a déterminer 
 #    sudoku = []

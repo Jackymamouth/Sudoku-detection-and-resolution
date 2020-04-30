@@ -5,6 +5,15 @@ Created on Sun Feb 23 14:43:10 2020
 @author: Ouistiti
 """
 
+# =============================================================================
+#
+#   This script creates labelized data from an image with numbers. This will
+#   later be used to train a model
+#
+# =============================================================================
+
+
+
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
