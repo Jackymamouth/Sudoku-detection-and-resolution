@@ -1,78 +1,56 @@
 # Automatic Sudoku detection and Solving
 
-
-BlaBlaBla
-
+This code automaticly detects sudokus in news papers, extracts and then solves them. In onrder to solve them number are recognized through number recognition. Once all information is gathered, a recursive backtracking algo solves the sudoku and then the Solved sudoku is saves and displayed.
 
 ## Getting Started
 
 
-
 ### Assumptions
 
+The format of data of the newspapers is pdf but to make it more interesting the are converted into images from the start.
 
 ### Data
 
+News papers for 20 different dates. Normally each newspaper has a sudoku game per date.
 
-```
-blabla
-```
-
-
-## Initialize code
+## Finding pages with the sudoku
 
 
 '''
 CODE THAT INITIALISES CODE
 '''
 
-## Results
+## finding and extracting sudoku part
 
-
-![pnl curve](/images/sds1.png)
 
 ![pnl curve](/images/sds2.png)
 
-## Verification of results
+## Number recognition
 
 It is important to verify that the code is indeed doing the trades that is intend to do. Also, to insure that we specied the enter/exit rules correctly as you wanted .
 
-![pnl curve](/images/sds3.png)
+
 
 <!--
 Give an example
 
-## Deployment
+## Solving sudoku
 Add additional notes about how to deploy this on a live system
 
-## Built With
+![pnl curve](/images/sds3.png)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
--->
+
 
 ## Personnal Observations
 
-What I have found from testing multiple of must well known trading strategies, and with a few that I played around with is that it seems impossible to earn constant positive return when taking into account the transactions costs  
+
 
 ## Conclusion
-blabla
 
-<!--## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.```
 
--->
 ## Author
 
 * **Jack Swindle** - *Initial work* - [PurpleBooth](https://github.com/Jackymamouth)
 <!--
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.-->
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## List of supported indicators
-
