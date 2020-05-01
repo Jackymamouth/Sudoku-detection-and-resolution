@@ -22,17 +22,12 @@ CODE THAT INITIALISES CODE
 
 ## finding and extracting sudoku part
 
-
 ![pnl curve](/images/sds2.png)
 
 ## Number recognition
 
 It is important to verify that the code is indeed doing the trades that is intend to do. Also, to insure that we specied the enter/exit rules correctly as you wanted .
 
-
-
-<!--
-Give an example
 
 ## Solving sudoku
 Add additional notes about how to deploy this on a live system
