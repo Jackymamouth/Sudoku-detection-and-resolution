@@ -1,16 +1,11 @@
 # Automatic Sudoku detection and Solving
 
-This code automaticly detects sudokus in news papers, extracts and then solves them. In onrder to solve them number are recognized through number recognition. Once all information is gathered, a recursive backtracking algo solves the sudoku and then the Solved sudoku is saves and displayed.
+This code automaticly detects sudokus in news papers, extracts and then solves them. In order to solve them, numbers are recognized through number recognition process. Once all information is gathered, a recursive backtracking algorithm solves the sudoku and then the solved sudoku is saved and displayed.
 
-## Getting Started
+## Introduction
 
-
-### Assumptions
-
-The format of data of the newspapers is pdf but to make it more interesting the are converted into images from the start.
-
-### Data
-
+The data with have is newspapers
+The format of data of the newspapers is pdf but to make it more interesting the are converted into images from the start
 News papers for 20 different dates. Normally each newspaper has a sudoku game per date.
 
 ## Finding pages with the sudoku
@@ -46,6 +41,6 @@ Add additional notes about how to deploy this on a live system
 
 ## Author
 
-* **Jack Swindle** - *Initial work* - [PurpleBooth](https://github.com/Jackymamouth)
+* **Jack Swindle** 
 <!--
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.-->
